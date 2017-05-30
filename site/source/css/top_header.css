@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+}
+.top-header{
+    background-color:#7FFF00;
+}
+
+.top-header-bg {
+  background: url('../source/view2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../source/view2.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.../source/view2.jpg', sizingMethod='scale');
+  height: 800px;
+  width: 100%;
+  opacity: 0.9;
+
+}
