@@ -1,8 +1,14 @@
 body{
+  padding: 0;
   margin: 0;
+  text-align: center;
+  background: #222;
+  font-family: 'Raleway', sans-serif;
 }
+
 .top-header{
     background-color:#7FFF00;
+      height: 780px;
 }
 
 .top-header-bg {
@@ -13,8 +19,7 @@ body{
   background-size: cover;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../source/view2.jpg', sizingMethod='scale')";
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.../source/view2.jpg', sizingMethod='scale');
-  height: 800px;
+  height:inherit;
   width: 100%;
   opacity: 0.9;
-
 }
