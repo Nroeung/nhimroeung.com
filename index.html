@@ -12,65 +12,66 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="site/source/css/top_header.css" />
     <link rel="stylesheet" href="site/source/css/project.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#tabl").click();
+        });
+    </script>
+    });
+    </script>
 </head>
 
 <body>
-<div class="top-header">
-<div>
-<img src="site/source/source/top_header_icon.png" class="top_header_icon">
-</div>
+    <div class="top-header">
+        <div>
+            <img src="site/source/source/top_header_icon.png" class="top_header_icon">
+        </div>
 
 
-</div>
+    </div>
 
 
-<div class="top-header-bg"></div>
+    <div class="top-header-bg"></div>
 
-<div class="project_header">
-<div id="project_tab">
-  <ul>
-    <li class="tableaa">
-      <b>Project</b>
-      <span>&darr;</span>
-      <div>
-        <h1>1. Tab</h1>
-        <p>Something in 1. tab.</p>
-        <img src="site/source/source/nshare.PNG">
-      </div>
-    </li>
-    <li tabindex="2">
-      <b>Hackathon</b>
-      <span>&darr;</span>
-      <div>
-        <h1>2. Tab</h1>
-        <p>Something in 2. tab.</p>
-      </div>
-    </li>
-    <li tabindex="2">
-      <b>3. Tab</b>
-      <span>&darr;</span>
-      <div>
-        <h1>Website</h1>
-        <p>Something in 3. tab.</p>
-      </div>
-    </li>
-    <li tabindex="2">
-      <b>4. Tab</b>
-      <span>&darr;</span>
-      <div>
-        <h1>4. Tab</h1>
-        <p>Something in 4. tab.</p>
-      </div>
-    </li>
-  </ul>
-</div>
-</div>
+    <div class="project_header">
+        <div id="project_tab">
+            <ul>
+                <li tabindex="0" id="tabl">
+                    <b>Senior Design</b>
+                    <span>&darr;</span>
+                    <div>
+                        <h1>Senior Design Project</h1>
+                        <p>Something in 1. tab.</p>
+                        <a title="Senior Design" href="https://sites.google.com/a/temple.edu/ipv6-mesh-netwrk/"><img class="senior-design-icon" src="site/source/source/seniordesign.PNG" /></a>
+                    </div>
+                </li>
+                <li tabindex="0" id="tab2">
+                    <b>Hackathon</b>
+                    <span>&darr;</span>
+                    <div>
+                        <h1>2. Tab</h1>
+                        <p>Something in 2. tab.</p>
+                        <a title="Software-Hardware Hack" href="https://github.com/Nroeung/Hack-PSU"><img class="hardware-hack-icon" src="site/source/source/nshare.PNG" /></a>
+                    </div>
+                </li>
 
-<script type="text/javascript">
-$(document).ready(function(){
-  $(".tableaa").click();
-  });
-</script>
+                <li tabindex="0" id="tab2">
+                    <b>Hackathon</b>
+                    <span>&darr;</span>
+                    <div>
+                        <h1>2. Tab</h1>
+                        <p>Something in 2. tab.</p>
+                        <a title="Personal Website" href="https://github.com/Nroeung/nhimroeung.com"><img class="web-image-icon" src="site/source/source/website.PNG" /></a>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
 
 
 </body>
