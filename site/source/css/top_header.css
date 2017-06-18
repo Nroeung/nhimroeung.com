@@ -7,8 +7,14 @@ body{
 }
 
 .top-header{
-    background-color:#7FFF00;
-      height: 780px;
+    background-color:#ffffff;
+      height: auto;
+}
+
+.top_header_icon{
+  position: center;
+  width: 550px;
+  margin-right: 20%;
 }
 
 .top-header-bg {
@@ -19,7 +25,8 @@ body{
   background-size: cover;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../source/view2.jpg', sizingMethod='scale')";
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.../source/view2.jpg', sizingMethod='scale');
-  height:inherit;
+  height:600px;
   width: 100%;
   opacity: 0.9;
+  ox-shadow: inset 0px 0px 40px 40px #DBA632;
 }

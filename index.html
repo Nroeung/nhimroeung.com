@@ -11,17 +11,67 @@
     <meta name="keywords" content="" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="site/source/css/top_header.css" />
+    <link rel="stylesheet" href="site/source/css/project.css" />
 </head>
 
 <body>
 <div class="top-header">
-<div class="top-header-bg"></div>
+<div>
+<img src="site/source/source/top_header_icon.png" class="top_header_icon">
 </div>
-  <div id="credits">
-    Code Style: <a href="http://css-tricks.com/perfect-full-page-background-image/">Newer CSS3 Syntax</a>
-    <br><br>
-    Image Source: <a href="http://us.fotolia.com/id/34843570">Fotolia.com</a>
-  </div>
+
+
+</div>
+
+
+<div class="top-header-bg"></div>
+
+<div class="project_header">
+<div id="project_tab">
+  <ul>
+    <li class="tableaa">
+      <b>Project</b>
+      <span>&darr;</span>
+      <div>
+        <h1>1. Tab</h1>
+        <p>Something in 1. tab.</p>
+        <img src="site/source/source/nshare.PNG">
+      </div>
+    </li>
+    <li tabindex="2">
+      <b>Hackathon</b>
+      <span>&darr;</span>
+      <div>
+        <h1>2. Tab</h1>
+        <p>Something in 2. tab.</p>
+      </div>
+    </li>
+    <li tabindex="2">
+      <b>3. Tab</b>
+      <span>&darr;</span>
+      <div>
+        <h1>Website</h1>
+        <p>Something in 3. tab.</p>
+      </div>
+    </li>
+    <li tabindex="2">
+      <b>4. Tab</b>
+      <span>&darr;</span>
+      <div>
+        <h1>4. Tab</h1>
+        <p>Something in 4. tab.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".tableaa").click();
+  });
+</script>
+
 
 </body>
 
